@@ -48,7 +48,7 @@ export default new Router({ // 导出Router对象
       component: Order,
       children: [
         {
-          path: 'list',
+          path: 'list', // 子路由后面不加/
           name: 'order-list',
           component: OrderList
         },

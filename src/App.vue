@@ -5,10 +5,15 @@
 </template>
 
 <script>
+// import Storage from './storage/index'
 export default {
-  name: 'app'
+  name: 'app',
+  mounted () {
+    // Storage.setItem('a', 1)
+  }
 }
 </script>
-<style lang='css' scoped>
-
+<style lang='scss'>
+@import '@/assets/sass/reset.scss';
+@import '@/assets/sass/config.scss';
 </style>
